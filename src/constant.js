@@ -11,7 +11,7 @@ export const LISTA_LENTES = [
     id: 1,
     src: nike1,
     className: "bg-teal-500",
-    title: "Nike Air Max 270",
+    title: "Aviator Classic",
     description:
       "The Nike Air Max 270 is a lifestyle shoe that's sure to turn heads with its vibrant color gradient.",
     price: 160,
@@ -20,7 +20,7 @@ export const LISTA_LENTES = [
     id: 2,
     src: nike2,
     className: "bg-red-600",
-    title: "Nike Air Vapor",
+    title: "New Caravan",
     description:
       "The Nike Air Vapor is a sleek and stylish shoe that's perfect for any occasion. It's the perfect shoe for any active lifestyle.",
     price: 100,
@@ -29,7 +29,7 @@ export const LISTA_LENTES = [
     id: 3,
     src: nike3,
     className: "bg-teal-500",
-    title: "Nike Air Max 2090",
+    title: "Solbriller",
     description:
       "The Nike Air Max 2090 is shoe that's both stylish and comfortable. It's the perfect shoe for any fashion-forward individual.",
     price: 150,
@@ -38,7 +38,7 @@ export const LISTA_LENTES = [
     id: 4,
     src: nike4,
     className: "bg-red-600",
-    title: "Nike Air Blazer",
+    title: "Justin 2024",
     description:
       "The Nike Air Blazer is a classic shoe that's perfect for any casual occasion. It's the perfect shoe for any laid-back individual.",
     price: 110,

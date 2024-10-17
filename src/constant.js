@@ -12,8 +12,7 @@ export const LISTA_LENTES = [
     src: nike1,
     className: "bg-teal-500",
     title: "Aviator Classic",
-    description:
-      "The Nike Air Max 270 is a lifestyle shoe that's sure to turn heads with its vibrant color gradient.",
+    description: "Código de modelo RB3636 9196G6 58-15.",
     price: 160,
   },
   {
@@ -21,8 +20,7 @@ export const LISTA_LENTES = [
     src: nike2,
     className: "bg-red-600",
     title: "New Caravan",
-    description:
-      "The Nike Air Vapor is a sleek and stylish shoe that's perfect for any occasion. It's the perfect shoe for any active lifestyle.",
+    description: "Código de modelo RB3025 L0205 58-14.",
     price: 100,
   },
   {
@@ -30,8 +28,7 @@ export const LISTA_LENTES = [
     src: nike3,
     className: "bg-teal-500",
     title: "Solbriller",
-    description:
-      "The Nike Air Max 2090 is shoe that's both stylish and comfortable. It's the perfect shoe for any fashion-forward individual.",
+    description: "Código de modelo RB2199 902/B1 52-22.",
     price: 150,
   },
   {
@@ -39,8 +36,7 @@ export const LISTA_LENTES = [
     src: nike4,
     className: "bg-red-600",
     title: "Justin 2024",
-    description:
-      "The Nike Air Blazer is a classic shoe that's perfect for any casual occasion. It's the perfect shoe for any laid-back individual.",
+    description: "Código de modelo RB4068 642/57 60-17.",
     price: 110,
   },
 ];

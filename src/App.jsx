@@ -4,8 +4,15 @@ import { Nav } from "./components/Nav";
 import { LISTA_LENTES } from "./constant";
 import { NewArrivals } from "./components/NewArrivals";
 import { Sidebar } from "./components/Sidebar";
-import { CartItem } from "./components/Cartitem";
+import { Cart } from "./components/Cart";
 
+const FAKE_CART_ITEMS = LISTA_LENTES.map((lente) => {
+  return {
+    product: lente,
+    cant: 1,
+    color: "red",
+  };
+});
 export function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,10 +24,7 @@ export function App() {
         <DetalleLentes />
         <NewArrivals items={LISTA_LENTES} />
         <Sidebar isOpen={isOpen} onClickClose={() => setIsOpen(false)}>
-          <h2 className="mb-10 text-2xl font-bold">Cart</h2>
-          <CartItem item={LISTA_LENTES[0]} />
-          <CartItem item={LISTA_LENTES[1]} />
-          <CartItem item={LISTA_LENTES[2]} />
+          <Cart cartItems={FAKE_CART_ITEMS} />
         </Sidebar>
       </div>
       {/* Hero */}

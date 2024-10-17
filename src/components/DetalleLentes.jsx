@@ -1,5 +1,6 @@
 import heroimg from "../assets/n1-min.png";
 import { CANT, COLOR } from "../constant";
+import { Select } from "./Select";
 
 export function DetalleLentes() {
   return (
@@ -19,11 +20,11 @@ export function DetalleLentes() {
           Ray-Ban RB0880S. Atemporales y auténticas. Ray-Ban, acerca el{" "}
           <b>estilo americano clásico</b> a todos los públicos.
         </div>
-        <div className="flex ">
+        <div className="flex space-x-6">
           <div className="text-3xl font-extrabold md:text-4xl">100 $</div>
           {/* Selectores */}
-          <select title={"CANT"} options={CANT} />
-          <select title={"COLOR"} options={COLOR} />
+          <Select title={"CANT"} options={CANT} />
+          <Select title={"COLOR"} options={COLOR} />
         </div>
 
         {/* Botones y detalles */}

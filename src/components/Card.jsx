@@ -9,7 +9,7 @@ export function Card({ item }) {
           Shop now +
         </div>
       </div>
-      <img className="absolute top-20 left-[40%] w-56 scale-150 md:scale-110 -rotate-12" src={item.src} alt="" />
+      <img className="absolute top-20 left-[40%] w-56 scale-150 md:scale-110 -rotate-12 2xl:scale-150" src={item.src} alt="" />
     </div>
   );
 }

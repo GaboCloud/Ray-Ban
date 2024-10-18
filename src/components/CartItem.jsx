@@ -1,25 +1,29 @@
 import { CiTrash } from "react-icons/ci";
-export function CartItem({ item }) {
+import { Select } from "./Select";
+import { CANT, COLOR } from "../constant";
+export function CartItem({ item : {product, cant, color}  }) {
   return (
     <div>
-      <div className="group flex hover:bg-teal-100/20 cursor-pointer p-2 justify-center items-center">
+      <div className="group flex hover:bg-teal-100/40 cursor-pointer p-2 justify-center items-center">
         {/* Img */}
-        <img className="h-14 group-hover:scale-105" src={item.src} alt="" />
+        <img className="h-14 group-hover:scale-105" src={product.src} alt="" />
         {/* title/description */}
         <div className="p-2">
-          <div className="font-bold">{item.title}</div>
+          <div className="font-bold">{product.title}</div>
           <div className="text-sm text-slate-700">
-            {item.description}
+            {product.description}
           </div>
         </div>
         {/* price */}
-        <div className="font-bold">{item.price}$</div>
+        <div className="font-bold">{product.price}$</div>
       </div>
 
       <div>
         <div>
-          <div></div>
-          <select name="" id=""></select>
+          <div>
+          
+          </div>
+          
         </div>
         <button>
           <CiTrash size={25} ClassName="text-blackd" />
